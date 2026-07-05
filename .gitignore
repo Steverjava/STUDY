@@ -1,0 +1,15 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/**/out/
+
+.run/
+
+### VS Code ###
+.vscode/
+
+###Reasonix###
+.reasonix/
