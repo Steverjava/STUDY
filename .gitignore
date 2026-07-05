@@ -1,0 +1,36 @@
+﻿### Backup folders ###
+*_backup/
+
+### Git worktrees (linked branches) ###
+JAVA/
+PYTHON/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/**/out/
+
+.run/
+
+### VS Code ###
+.vscode/
+
+### Reasonix ###
+.reasonix/
+
+### Python ###
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env
+.venv/
+venv/
+ENV/
+
+### OS ###
+.DS_Store
+Thumbs.db
