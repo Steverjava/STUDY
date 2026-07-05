@@ -13,3 +13,6 @@ out/
 
 ###Reasonix###
 .reasonix/
+
+###Python###
+.venv/
