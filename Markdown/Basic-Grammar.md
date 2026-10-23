@@ -91,4 +91,26 @@
 例如：  
 [贾魔司][1]
 
-[1]:<Steverjava.top> (贾魔司)
+[1]: <Steverjava.top> (贾魔司)
+
+# Markdown 图片语法
+添加图片使用 **"!"** 关键字，在 **"[]"** 中添加代替文本，在 **"()"** 中写图片链接，与链接语法一样可以在链接后加标题文本  
+例如：  
+![一张图片](/Material/sugar-00.png "糖？")  
+
+也可以对图片添加链接，将上述内容用 **"[]"** 包裹，再在其后用 **"()"** 包裹链接即可  
+例如：  
+[![一张图片](/Material/贾魔司.png "emmm？")]("https://mp.weixin.qq.com/s/VwZ6T8t8_IgDa9NocF3Zqw")
+
+# Markdowm 转义字符语法
+也就是把一些在markdown里面有作用的字符 **"\、`、*、_、{}、[]、()、#、+、-、.、!、|"** 表示出来  
+例如：  
+这是反斜杠\\，这是井号\#。
+
+# Markdowm 内嵌 HTML 标签
+在行内不受限制  
+例如：  
+This **world** is blod. This <em>world</em> is italic.
+
+区块标签需要在前后加空行与markdown部分分开，并且部分标签的开始与结尾不能用空白或Tab进行缩进。  
+同时需要注意的是Markdown语法无法在HTML区块内使用。
